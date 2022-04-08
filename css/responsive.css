@@ -1,110 +1,138 @@
-
-
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1500px) {}
-
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
+@media (min-width: 1200px) and (max-width: 1342px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0 20px;
-    }
-    .text-bg h1 {
-        padding-top: 0px;
-        font-size: 44px;
-        line-height: 61px;
-        padding-bottom: 18px;
+        padding: 0px 20px;
     }
     .text-bg span {
-        font-size: 28px;
-        line-height: 30px;
+        font-size: 41px;
+    }
+    .laptop_box {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 11px;
+    }
+    .text-bg h1 {
+        font-size: 56px;
+        line-height: 66px;
+        padding-bottom: 21px;
+    }
+    .text-bg span {
+        font-size: 31px;
+        line-height: 42px;
     }
     .text-bg a {
-        margin-right: 5px;
-        padding: 10px 23px;
-        float: inherit;
-        max-width: 156px;
+        max-width: 163px;
     }
-    .Services .Services-box {
-        padding: 25px 15px;
+    .laptop .titlepage h2 {
+        font-size: 78px;
     }
-    .Services .Services-box h3 {
-        font-size: 17px;
+    .laptop_box {
+        margin-right: 0px;
     }
-    .why .why-box {
-        padding: 40px 10px 20px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 9px;
     }
-    .why .why-box h3 {
-        font-size: 19px;
+    .banner_main {
+        min-height: 705px;
     }
-    .bg {
-        max-width: 170px;
+    .text-bg h1 {
+        font-size: 40px;
+        line-height: 65px;
+        padding-bottom: 10px;
     }
-    .main_form {
-        padding: 55px 25px;
+    .text-bg span {
+        font-size: 21px;
+        line-height: 23px;
     }
-    .cont span {
-        font-size: 22px;
-        line-height: 22px;
+    .text-bg a {
+        max-width: 107px;
+        padding: 9px 0px;
     }
-    .cont p {
-        padding: 0px 30px;
-        padding-bottom: 60px;
+    .d_none {
+        display: none;
     }
-    .cont {
-        margin-top: 47%;
+    .laptop_box {
+        margin-right: 0px;
     }
-    .main_form {
-        margin-bottom: -92%;
+    .box_text p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .laptop .titlepage p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .laptop .titlepage h2 {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .about_us li {
+        margin-bottom: 30px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .mean-container .mean-bar {
-        margin-top: 0px;
+    .text-bg h1 {
+        font-size: 70px;
+        line-height: 40px;
+        padding-bottom: 25px;
+    }
+    #banner1 .carousel-inner {
+        padding-right: 0;
+    }
+    .text_img {
+        margin-right: 0px;
+    }
+    #banner1 .carousel-indicators {
+        bottom: -40px;
+    }
+    .text-bg span {
+        font-size: 38px;
     }
     .text-bg a {
-        float: inherit;
+        margin-bottom: 30px;
+        max-width: 202px;
+    }
+    .box_text {
         margin-bottom: 30px;
     }
-    .titlepage h2 {
-        font-size: 36px;
+    .bottom_form h3,
+    .footer h3 {
+        margin-top: 30px;
     }
-    .web_hosting p {
-        padding: 40px 0px;
-    }
-    .bg {
-        margin-bottom: 30px;
-    }
-    .cont p {
-        padding: 0px 30px;
-        padding-bottom: 60px;
-    }
-    .cont {
-        margin-top: 50%;
+    .laptop_box {
+        margin-right: 0px;
+        margin-top: 30px;
     }
     .main_form {
-        margin-bottom: -58%;
+        margin: 0;
     }
-    .cont span {
-        font-size: 20px;
-        line-height: 24px;
+    ul.location_icon li {
+        font-size: 17px;
+        padding-left: 13px;
     }
     .navigation.navbar {
         float: right;
         display: inherit !important;
         padding: 0;
         width: 100%;
+        padding-top: 12px;
     }
     .navigation .navbar-collapse {
-        background: #fff;
+        background: #48ca95;
         padding: 20px;
-        margin-top: 56px;
+        margin-top: 64px;
         position: absolute;
         width: 100%;
         margin-right: 20px;
@@ -114,73 +142,95 @@
         padding: 10px 0;
         color: #000;
     }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #fff;
+    }
     .navigation.navbar-dark .navbar-toggler {
-        border-color: #fff;
+        border: inherit;
         float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
     }
 }
 
 @media (max-width: 575px) {
     .header {
-        padding: 40px 0px 0px 0px;
+        padding: 30px 0px 15px 0px;
     }
     .logo {
         text-align: center !important;
-        padding-bottom: 25px;
+        padding-bottom: 6px;
         float: left;
     }
-    .text-bg h1 {
-        font-size: 41px;
-        line-height: 55px;
-        padding-bottom: 18px;
+    #banner1 .carousel-inner {
+        padding-right: 0;
     }
-    .text-bg a {
-        float: inherit;
-        margin-bottom: 30px;
+    .text_img {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    #banner1 .carousel-indicators {
+        bottom: -40px;
+    }
+    .text-bg h1 {
+        font-size: 47px;
+        line-height: 40px;
+        padding-bottom: 10px;
     }
     .text-bg span {
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 25px;
+        line-height: 47px;
     }
-    .titlepage h2 {
-        font-size: 28px;
-        line-height: 35px;
+    .text-bg a {
+        max-width: 132px;
+        padding: 10px 0px;
     }
-    .web_hosting p {
-        padding: 40px 0px;
-    }
-    .bg {
+    .box_text {
         margin-bottom: 30px;
     }
-    .cont h3 {
+    .laptop .titlepage p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .laptop_box {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .titlepage h2 {
         font-size: 30px;
     }
-    .cont p {
-        padding: 0px 0px;
-        padding-bottom: 60px;
-    }
-    .cont span {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .cont {
-        margin-top: 89%;
-    }
     .main_form {
-        margin-bottom: -102%;
-        padding: 55px 15px;
+        margin: 0px;
+        padding: 70px 30px;
+    }
+    .footer h3,
+    .bottom_form h3 {
+        margin-top: 30px;
     }
     .navigation.navbar {
         float: right;
         display: inherit !important;
         padding: 0;
         width: 100%;
-        margin-top: -70px;
+        margin-top: -96px;
     }
     .navigation .navbar-collapse {
-        background: #fff;
+        background: #48ca95;
         padding: 20px;
-        margin-top: 56px;
+        margin-top: 67px;
         position: absolute;
         width: 100%;
         margin-right: 20px;
@@ -190,9 +240,30 @@
         padding: 10px 0;
         color: #000;
     }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #fff;
+    }
     .navigation.navbar-dark .navbar-toggler {
-        border-color: #fff;
         float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
     }
 }
 
